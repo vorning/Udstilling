@@ -1,27 +1,21 @@
-[
-    {
-        "name": "Stjernetåge",
-        "description": "Her dannes stjernerne ud af gasser og støv i rummet.",
-        "image": "images/nebula.jpg"
-    },
-    {
-        "name": "Protonstjerne",
-        "description": "Gasser trækker sig sammen og danner en glødende kugle.",
-        "image": "images/protostar.jpg"
-    },
-    {
-        "name": "Hovedserie Stjerne",
-        "description": "Stjernen er stabil og producerer energi gennem fusion.",
-        "image": "images/main_sequence.jpg"
-    },
-    {
-        "name": "Rød Kæmpe",
-        "description": "Stjernen udvider sig og bliver til en rød kæmpe.",
-        "image": "images/red_giant.jpg"
-    },
-    {
-        "name": "Supernova",
-        "description": "Stjernen eksploderer og spreder tunge grundstoffer.",
-        "image": "images/supernova.jpg"
-    }
-]
+let currentPhase = 0;
+let starPhases = [];
+
+fetch('json/stjernes_faser.json')
+    .then(response => response.json())
+    .then(data => {
+        starPhases = data;
+        updateDisplay();
+    })
+    .catch(error => console.error("Fejl ved indlæsning af data:", error));
+
+function updateDisplay() {
+    const phase = starPhases[currentPhase];
+    document.getElementById('stage-info').innerHTML = `<h2>${phase.name}</h2><p>${phase.description}</p>`;
+    document.getElementById('star-image').style.backgroundImage = `url(${phase.image})`;
+}
+
+document.getElementById('next-phase').addEventListener('click', () => {
+    currentPhase = (currentPhase + 1) % starPhases.length;
+    updateDisplay();
+});
