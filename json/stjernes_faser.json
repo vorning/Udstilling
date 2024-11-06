@@ -2,26 +2,31 @@
     {
         "name": "Stjernetåge",
         "description": "Her dannes stjernerne ud af gasser og støv i rummet.",
-        "image": "images/nebula.jpg"
+        "image": "images/nebula.jpg",
+        "video": "img/Stjernetåge - Made with Clipchamp.mp4"  
     },
     {
         "name": "Protonstjerne",
         "description": "Gasser trækker sig sammen og danner en glødende kugle.",
-        "image": "images/protostar.jpg"
+        "image": "images/protostar.jpg",
+        "video": ""  
     },
     {
         "name": "Hovedserie Stjerne",
         "description": "Stjernen er stabil og producerer energi gennem fusion.",
-        "image": "images/main_sequence.jpg"
+        "image": "images/main_sequence.jpg",
+        "video": "img/Hovedserie_Stjerne - made with Clipchamp.mp4" 
     },
     {
         "name": "Rød Kæmpe",
         "description": "Stjernen udvider sig og bliver til en rød kæmpe.",
-        "image": "images/red_giant.jpg"
+        "image": "images/red_giant.jpg",
+        "video": "img/Rød_Kæmpe - made with Clipchamp.mp4" 
     },
     {
         "name": "Supernova",
         "description": "Stjernen eksploderer og spreder tunge grundstoffer.",
-        "image": "images/supernova.jpg"
+        "image": "images/supernova.jpg",
+        "video": "img/Supernova - made with Clipchamp.mp4" 
     }
 ]
