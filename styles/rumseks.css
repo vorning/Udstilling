@@ -2,7 +2,7 @@ body {
     background-color: #010814; /* Skift denne farve til den ønskede baggrundsfarve */
     margin: 0; /* Fjern standard margin for body */
     padding: 0; /* Fjern standard padding for body */
-    cursor: url('img/mus.svg'), auto; /* Update the path if needed */
+    cursor: url('/assets/vids/mus.svg'), auto; /* Update the path if needed */
 }
 
 
