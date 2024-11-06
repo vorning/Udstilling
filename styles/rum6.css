@@ -1,0 +1,100 @@
+body {
+    background-color: #010814; /* Skift denne farve til den ønskede baggrundsfarve */
+    margin: 0; /* Fjern standard margin for body */
+    padding: 0; /* Fjern standard padding for body */
+    cursor: url('img/mus.svg'), auto; /* Update the path if needed */
+}
+
+
+.container {
+    text-align: center;
+
+}
+
+
+.kosmos {
+    max-width: 40%;
+    margin-bottom: 20px;
+}
+
+#background-canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1; /* Behind all other content */
+    background-color: #010814; /* Optional, just in case */
+}
+
+.circle-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; /* Sørg for, at cirklerne kan wrappe til næste linje */
+    gap: 140px; /* Afstand mellem cirklerne */
+}
+
+.circle-container .cirkel1, 
+.circle-container .cirkel2, 
+.circle-container .cirkel3, 
+.circle-container .cirkel4, 
+.circle-container .cirkel5, 
+.circle-container .cirkel6, 
+.circle-container .cirkel7 {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #D9D9D9;
+    position: relative;
+}
+
+.circle-container .cirkel1 {
+    margin-top: 200px; /* Placeret højere oppe */
+}
+
+.circle-container .cirkel2 {
+    margin-top: -50px; /* Lidt lavere */
+}
+
+.circle-container .cirkel3 {
+    margin-top: 100px; /* Placeret på baseline */
+}
+
+.circle-container .cirkel4 {
+    margin-top: -80px; /* Lidt højere oppe */
+}
+
+.circle-container .cirkel5 {
+    margin-top: 200px; /* Lidt lavere */
+}
+
+.circle-container .cirkel6 {
+    margin-top: -20px; /* Meget højere oppe */
+}
+
+.circle-container .cirkel7 {
+    margin-top: 90px; /* Placeret på baseline */
+}
+
+.hover-text {
+    display: none; /* Skjult som standard */
+    position: absolute;
+    padding: 20px;
+    width: 650px; /* Angiv en fast bredde */
+    font-size: 20px;
+    font-family: Kode Mono;
+    text-align: center; /* Centrer teksten i kassen */
+    background-color: rgba(0, 0, 0, 0.8); /* Baggrundsfarve */
+    color: #fff; /* Tekstfarve */
+    border-radius: 10px; /* Rundede hjørner */
+    z-index: 10;
+    top: 250px; /* Adjust this value to move the text box closer to the top */
+    transition: opacity 1.5s ease; /* Glidende overgang for at gøre det mere elegant */
+    opacity: 0; /* Start med usynlig */
+}
+
+/* Vis hover-tekst, når musen er over cirklen */
+.circle-container div:hover + .hover-text {
+    display: block;
+    opacity: 1; /* Gør det synligt, når musen er over cirklen */
+}
