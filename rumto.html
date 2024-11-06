@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planetarium - Galakser</title>
+    <link rel="stylesheet" href="styles/rumto.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="container">
+        <canvas id="galaxyCanvas"></canvas>
+    </div>
+    <div id="header">
+        <h1 id="main-title">Galaksernes dannelse og udvikling</h1>
+    </div>
+    <div id="controls">
+        <label for="galaxy-speed-slider" id="speed-slider-label">Vælg galaksernes udviklingshastighed:</label>
+        <div class="slider-container">
+            <span id="speed-value">1</span>
+            <input type="range" id="galaxy-speed-slider" min="1" max="100" value="1">
+            <span id="slider-max">100</span>
+        </div>
+        <button id="reset-button">Nulstil</button>
+    </div>
+    <!-- JavaScript Filer -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/postprocessing/EffectComposer.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/postprocessing/RenderPass.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/postprocessing/UnrealBloomPass.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/shaders/CopyShader.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/postprocessing/ShaderPass.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/shaders/LuminosityHighPassShader.js"></script>
+    <script src="scripts/rumto.js"></script>
+</body>
+</html>
