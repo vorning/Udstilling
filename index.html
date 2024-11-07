@@ -1,26 +1,67 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Kosmos: En Rejse Gennem Tiden</title>
-  <link rel="stylesheet" href="styles/styles.css">
-</head>
-<body>
-  <div id="timeline">
-  </div>
-  
-  <div class="section" id="room1">
-    <video id="videoRoom1" src="" preload="auto" muted></video>
-    <h2>BIG BANG</h2>
-    <p>Explore the vastness of the nebula...</p>
-  </div>
+<html lang="da">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Museum Udstilling - Index</title>
+    <link rel="stylesheet" href="/styles/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav class="navigation">
+      <ul>
+        <li><a href="#rum1">Rum 1: Big Bang - Begyndelsen</a></li>
+        <li><a href="#rum2">Rum 2: Universets Udvikling</a></li>
+        <li><a href="#rum3">Rum 3: Stjernernes Fødsel og Død</a></li>
+        <li><a href="#rum4">Rum 4: Planetdannelse</a></li>
+        <li><a href="#rum5">Rum 5: Planeterne</a></li>
+        <li><a href="#rum6">Rum 6: Menneskets Plads i Universet</a></li>
+      </ul>
+    </nav>
 
-  <div class="section" id="room2">
-    <h2>DE FØRSTE STJERNER</h2>
-    <p>room 2 her</p>
-  </div>
-  
-  <script src="scripts/section1.js"></script>
-</body>
+    <div class="section" id="rum1">
+      <h2 class="section-title">Rum 1: Big Bang - Begyndelsen</h2>
+      <iframe src="rumet.html" title="Big Bang - Begyndelsen"></iframe>
+    </div>
+
+    <div class="section" id="rum2">
+      <h2 class="section-title">
+        Rum 2: Universets Udvikling - Fra Partikler til Galakser
+      </h2>
+      <iframe src="rumto.html" title="Universets Udvikling"></iframe>
+    </div>
+
+    <div class="section" id="rum3">
+      <h2 class="section-title">Rum 3: Stjernernes Fødsel og Død</h2>
+      <iframe src="rumtre.html" title="Stjernernes Fødsel og Død"></iframe>
+    </div>
+
+    <div class="section" id="rum4">
+      <h2 class="section-title">
+        Rum 4: Planetdannelse - Solsystemets/Mælkevejen Oprindelse
+      </h2>
+      <iframe src="rumfire.html" title="Planetdannelse"></iframe>
+    </div>
+
+    <div class="section" id="rum5">
+      <h2 class="section-title">
+        Rum 5: Planeterne - En Rundrejse i Solsystemet
+      </h2>
+      <iframe src="rumfem.html" title="Planeterne"></iframe>
+    </div>
+
+    <div class="section" id="rum6">
+      <h2 class="section-title">
+        Rum 6: Menneskets Plads i Universet og Fremtiden
+      </h2>
+      <iframe src="rumseks.html" title="Menneskets Plads i Universet"></iframe>
+    </div>
+
+    <footer>
+      <p>&copy; 2024 Museum Udstilling</p>
+    </footer>
+  </body>
 </html>
