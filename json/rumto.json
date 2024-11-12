@@ -1,0 +1,38 @@
+[
+  {
+    "header": "Universets Udvikling",
+    "speedSlider": {
+      "label": "Hastighed for galakseudvikling"
+    },
+    "backgroundStars": {
+      "particleCount": 100000,
+      "spreadFactor": 50000,
+      "minSize": 2,
+      "maxSize": 6
+    },
+    "galaxies": [
+      {
+        "count": 20000,
+        "arms": 5,
+        "spread": 250,
+        "position": {
+          "x": 4000,
+          "y": 5000,
+          "z": 3000
+        },
+        "rotationSpeed": 0.001
+      },
+      {
+        "count": 25000,
+        "arms": 6,
+        "spread": 300,
+        "position": {
+          "x": -5000,
+          "y": 7000,
+          "z": 2000
+        },
+        "rotationSpeed": 0.002
+      }
+    ]
+  }
+]

@@ -1,7 +1,7 @@
 body {
   margin: 0;
   overflow: hidden;
-  font-family: 'Orbitron', sans-serif;
+  font-family: "Orbitron", sans-serif;
   color: #ffffff;
   background-color: #000000;
 }
@@ -87,7 +87,7 @@ body {
   padding: 10px 20px;
   background-color: #ffd700;
   color: #ffffff;
-  font-family: 'Orbitron', sans-serif;
+  font-family: "Orbitron", sans-serif;
   border: none;
   border-radius: 5px;
   cursor: pointer;

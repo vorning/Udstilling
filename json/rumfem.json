@@ -1,0 +1,82 @@
+{
+  "background": {
+    "color": "#000010"
+  },
+  "sun": {
+    "name": "sun",
+    "title": "Sol",
+    "texture": "assets/vids/8k_sun.jpg",
+    "colors": {
+      "color1": "#ff4500",
+      "color2": "#ffd700"
+    },
+    "radius": 50,
+    "position": [200, 0, -500],
+    "content": "Solen er stjernen i centrum af solsystemet. Den er en næsten perfekt kugle af varm plasma, som producerer lys og varme."
+  },
+  "planets": [
+    {
+      "name": "mercury",
+      "title": "Merkur",
+      "texture": "assets/vids/mercur.png",
+      "roughness": 1.0,
+      "metalness": 0.0,
+      "radius": 20,
+      "position": [-400, 0, -500],
+      "content": "Merkur er den mindste planet i solsystemet og den tætteste på solen. Den har en meget tynd atmosfære, hvilket gør den ekstremt varm om dagen og meget kold om natten."
+    },
+    {
+      "name": "venus",
+      "title": "Venus",
+      "texture": "assets/vids/venus.jpg",
+      "roughness": 1.0,
+      "metalness": 0.0,
+      "radius": 25,
+      "position": [0, 150, -600],
+      "content": "Venus er den anden planet fra solen. Den er næsten på størrelse med Jorden, men har en meget tyk og giftig atmosfære, der skaber en ekstrem drivhuseffekt."
+    },
+    {
+      "name": "earth",
+      "title": "Jorden",
+      "texture": "assets/vids/earth8k.jpg",
+      "roughness": 1.0,
+      "metalness": 0.0,
+      "radius": 30,
+      "position": [300, -100, -700],
+      "content": "Jorden er den tredje planet fra solen og den eneste kendte planet med liv. Den har en atmosfære rig på ilt og vand i flydende form."
+    },
+    {
+      "name": "mars",
+      "title": "Mars",
+      "texture": "assets/vids/mars.jpg",
+      "roughness": 1.0,
+      "metalness": 0.0,
+      "radius": 28,
+      "position": [500, 200, -800],
+      "content": "Mars er den fjerde planet fra solen. Den kaldes ofte 'Den Røde Planet' på grund af dens karakteristiske røde farve, der skyldes jernoxid på dens overflade."
+    },
+    {
+      "name": "jupiter",
+      "title": "Jupiter",
+      "texture": "assets/vids/jupiter.jpg",
+      "roughness": 1.0,
+      "metalness": 0.0,
+      "radius": 60,
+      "position": [-600, -300, -900],
+      "content": "Jupiter er den største planet i solsystemet. Det er en gaskæmpe med en masse storme, herunder den berømte store røde plet, som er en vedvarende storm."
+    },
+    {
+      "name": "saturn",
+      "title": "Saturn",
+      "texture": "assets/vids/saturn.jpg",
+      "roughness": 1.0,
+      "metalness": 0.0,
+      "radius": 55,
+      "position": [800, -200, -1000],
+      "content": "Saturn er den sjette planet fra solen og er kendt for sit spektakulære ringsystem lavet af is og klippestykker. Den er også en gaskæmpe."
+    }
+  ],
+  "stars": {
+    "count": 10000
+  }
+}

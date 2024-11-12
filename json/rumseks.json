@@ -1,0 +1,32 @@
+{
+  "circles": [
+    {
+      "class": "cirkel1",
+      "text": "Begyndelsen af Rumrejsen: 1969 markerede menneskehedens første skridt på månen. Apollo 11's succes blev et symbol på vores evne til at udforske og forstå det ukendte. Det var begyndelsen på en rejse, der kun ville tage til i ambitioner og omfang."
+    },
+    {
+      "class": "cirkel2",
+      "text": "Rumstationernes Tidsalder: Den første rumstation blev opsendt af Sovjetunionen og hed Saljut 1. Den blev sendt i kredsløb i 1971. Den internationale rumstation, ISS blev opsendt i 1998 og har tilladt os at bo og arbejde i rummet i længere perioder. Disse flydende laboratorier har været hjem for utallige eksperimenter, som har udvidet vores forståelse af universet – og af os selv."
+    },
+    {
+      "class": "cirkel3",
+      "text": "Andreas Mogensen – Første Dansker i Rummet: I september 2015 blev Andreas Mogensen den første dansker i rummet. Han var astronaut for den Europæiske Rumorganisation (ESA) og blev opsendt med en russisk Soyuz-raket til Den Internationale Rumstation (ISS). Under sin mission, kaldet Iriss, gennemførte Mogensen en række videnskabelige eksperimenter, som hjalp forskere med at forstå, hvordan kroppen reagerer på vægtløshed og langvarige ophold i rummet. Hans bedrift inspirerede mange danskere og satte Danmark på verdenskortet inden for rumforskning. Mogensen vendte tilbage til ISS i 2023, hvor han gennemførte flere missioner og endda blev udnævnt til missionens pilot – en ny milepæl for dansk rumfart."
+    },
+    {
+      "class": "cirkel4",
+      "text": "Mars - Næste Skridt?: Mars bliver ofte kaldt vores 'næste hjem.' Med missioner som Perseverance og kommende bemandede missioner, bevæger vi os mod det ambitiøse mål om at kolonisere en anden planet. Forestil dig byer, der rejser sig på Månen og Mars – autonome samfund, der kan klare de barske forhold og understøtte menneskeliv. Dette scenarie kan blive virkelighed inden for de næste årtier."
+    },
+    {
+      "class": "cirkel5",
+      "text": "Rumrejser Uden for Solsystemet: Når vi har etableret os i vores eget solsystem, vil vores blikke vende mod stjernerne. Rejser til nærliggende stjernesystemer, såsom Alpha Centauri, kan muligvis ske inden for det næste århundrede ved hjælp af nye fremdrivningsteknologier."
+    },
+    {
+      "class": "cirkel6",
+      "text": "Liv i Universet?: Med jagten efter eksoplaneter og avancerede teleskoper leder vi konstant efter tegn på liv. I fremtiden kan vi muligvis opdage eller endda kommunikere med intelligente væsener fra fjerne galakser."
+    },
+    {
+      "class": "cirkel7",
+      "text": "Den Intergalaktiske Fremtid: Hvad ligger der hinsides vores galakse? Med teknologi, der endnu er på tegnebrættet, kan menneskeheden en dag udforske andre galakser og få en dybere forståelse af kosmos' største mysterier. Fremtiden er en åben bog, og der bliver løbende taget nye skridt mod fremtidig rumforskning og ny viden."
+    }
+  ]
+}

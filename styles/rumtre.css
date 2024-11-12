@@ -1,46 +1,46 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #0d0d0d;
-    color: #ffffff;
-    text-align: center;
-    margin: 0;
-    overflow: hidden; /* Forhindrer scrollbars */
+  font-family: Arial, sans-serif;
+  background-color: #0d0d0d;
+  color: #ffffff;
+  text-align: center;
+  margin: 0;
+  overflow: hidden; /* Forhindrer scrollbars */
 }
 
 #display {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 }
 
 #star-image {
-    width: 100%;
-    height: 300px;
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-    margin: 20px 0;
+  width: 100%;
+  height: 300px;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 20px 0;
 }
 
 #star-video {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    object-fit: cover;
-    z-index: 1000;  /* Sørger for, at videoen er øverst */
-    display: none;  /* Skjult som standard */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  z-index: 1000; /* Sørger for, at videoen er øverst */
+  display: none; /* Skjult som standard */
 }
 
 #next-phase {
-    position: absolute; /* Gør det muligt at placere knappen præcist */
-    top: 20px; /* Afstand fra toppen */
-    left: 20px; /* Afstand fra venstre side */
-    padding: 10px 20px;
-    font-size: 2em;
-    background-color: #0066ff;
-    color: #ffffff;
-    border: none;
-    cursor: pointer;
-    z-index: 2000; /* Sørger for, at knappen er over videoen */
+  position: absolute; /* Gør det muligt at placere knappen præcist */
+  top: 20px; /* Afstand fra toppen */
+  left: 20px; /* Afstand fra venstre side */
+  padding: 10px 20px;
+  font-size: 2em;
+  background-color: #0066ff;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  z-index: 2000; /* Sørger for, at knappen er over videoen */
 }

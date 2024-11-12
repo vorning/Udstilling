@@ -1,0 +1,11 @@
+{
+  "title": "Planetdannelse - Fra Støv til Planeter",
+  "video": {
+    "src": "assets/vids/universet.mp4",
+    "type": "video/mp4"
+  },
+  "buttonText": {
+    "play": "Afspil",
+    "pause": "Pause"
+  }
+}

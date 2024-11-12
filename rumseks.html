@@ -1,60 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="da">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kosmos Interactive Circles</title>
     <link rel="stylesheet" href="/styles/rumseks.css">
     <link href="https://fonts.googleapis.com/css2?family=Kode+Mono&display=swap" rel="stylesheet">
-
 </head>
+
 <body>
     <canvas id="background-canvas"></canvas>
     <div class="container">
         <img src="/assets/vids/Kosmos.webp" alt="Kosmos" class="kosmos">
-        <div class="circle-container">
-            <div class="cirkel1" data-text="Begyndelsen af Rumrejsen: 1969 markerede menneskehedens første skridt på månen. Apollo 11's succes blev et symbol på vores evne til at udforske og forstå det ukendte. Det var begyndelsen på en rejse, der kun ville tage til i ambitioner og omfang."></div>
-            <div class="hover-text">Begyndelsen af Rumrejsen: 1969 markerede menneskehedens første skridt på månen. Apollo 11's succes blev et symbol på vores evne til at udforske og forstå det ukendte. Det var begyndelsen på en rejse, der kun ville tage til i ambitioner og omfang.</div>
-    
-            <div class="cirkel2" data-text="Rumstationernes Tidsalder: Den første rumstation blev opsendt af Sovjetunionen og hed Saljut 1. Den blev sendt i kredsløb i 1971. Den internationale rumstation, ISS blev opsendt i 1998 og har tilladt os at bo og arbejde i rummet i længere perioder. Disse flydende laboratorier har været hjem for utallige eksperimenter, som har udvidet vores forståelse af universet – og af os selv."></div>
-            <div class="hover-text">Rumstationernes Tidsalder:
-                Den første rumstation blev opsendt af Sovjetunionen og hed Saljut 1. Den blev sendt i kredsløb i 1971. Den internationale rumstation, ISS blev opsendt i 1998 og har tilladt os at bo og arbejde i rummet i længere perioder. Disse flydende laboratorier har været hjem for utallige eksperimenter, som har udvidet vores forståelse af universet – og af os selv.</div>
-    
-            <div class="cirkel3" data-text="Andreas Mogensen – Første Dansker i Rummet:
-            I september 2015 blev Andreas Mogensen den første dansker i rummet. Han var astronaut for den Europæiske Rumorganisation (ESA) og blev opsendt med en russisk Soyuz-raket til Den Internationale Rumstation (ISS). Under sin mission, kaldet Iriss, gennemførte Mogensen en række videnskabelige eksperimenter, som hjalp forskere med at forstå, hvordan kroppen reagerer på vægtløshed og langvarige ophold i rummet.
-            Hans bedrift inspirerede mange danskere og satte Danmark på verdenskortet inden for rumforskning. Mogensen vendte tilbage til ISS i 2023, hvor han gennemførte flere missioner og endda blev udnævnt til missionens pilot – en ny milepæl for dansk rumfart."></div>
-            <div class="hover-text">Andreas Mogensen – Første Dansker i Rummet:
-                I september 2015 blev Andreas Mogensen den første dansker i rummet. Han var astronaut for den Europæiske Rumorganisation (ESA) og blev opsendt med en russisk Soyuz-raket til Den Internationale Rumstation (ISS). Under sin mission, kaldet Iriss, gennemførte Mogensen en række videnskabelige eksperimenter, som hjalp forskere med at forstå, hvordan kroppen reagerer på vægtløshed og langvarige ophold i rummet.
-                Hans bedrift inspirerede mange danskere og satte Danmark på verdenskortet inden for rumforskning. Mogensen vendte tilbage til ISS i 2023, hvor han gennemførte flere missioner og endda blev udnævnt til missionens pilot – en ny milepæl for dansk rumfart.</div>
-    
-            <div class="cirkel4" data-text="Mars - Næste Skridt?:
-            Mars bliver ofte kaldt vores 'næste hjem.' Med missioner som Perseverance og kommende bemandede missioner, bevæger vi os mod det ambitiøse mål om at kolonisere en anden planet. Forestil dig byer, der rejser sig på Månen og Mars – autonome samfund, der kan klare de barske forhold og understøtte menneskeliv. Dette scenarie kan blive virkelighed inden for de næste årtier."></div>
-            <div class="hover-text">Mars - Næste Skridt?:
-                Mars bliver ofte kaldt vores 'næste hjem.' Med missioner som Perseverance og kommende bemandede missioner, bevæger vi os mod det ambitiøse mål om at kolonisere en anden planet. Forestil dig byer, der rejser sig på Månen og Mars – autonome samfund, der kan klare de barske forhold og understøtte menneskeliv. Dette scenarie kan blive virkelighed inden for de næste årtier.</div>
-    
-            <div class="cirkel5" data-text="Rumrejser Uden for Solsystemet:
-            Når vi har etableret os i vores eget solsystem, vil vores blikke vende mod stjernerne. Rejser til nærliggende stjernesystemer, såsom Alpha Centauri, kan muligvis ske inden for det næste århundrede ved hjælp af nye fremdrivningsteknologier."></div>
-            <div class="hover-text">Rumrejser Uden for Solsystemet:
-                Når vi har etableret os i vores eget solsystem, vil vores blikke vende mod stjernerne. Rejser til nærliggende stjernesystemer, såsom Alpha Centauri, kan muligvis ske inden for det næste århundrede ved hjælp af nye fremdrivningsteknologier.</div>
-    
-            <div class="cirkel6" data-text=" Liv i Universet?:
-            Med jagten efter eksoplaneter og avancerede teleskoper leder vi konstant efter tegn på liv. I fremtiden kan vi muligvis opdage eller endda kommunikere med intelligente væsener fra fjerne galakser."></div>
-            <div class="hover-text"> Liv i Universet?:
-                Med jagten efter eksoplaneter og avancerede teleskoper leder vi konstant efter tegn på liv. I fremtiden kan vi muligvis opdage eller endda kommunikere med intelligente væsener fra fjerne galakser.</div>
-    
-            <div class="cirkel7" data-text="Den Intergalaktiske Fremtid:
-            Hvad ligger der hinsides vores galakse? Med teknologi, der endnu er på tegnebrættet, kan menneskeheden en dag udforske andre galakser og få en dybere forståelse af kosmos' største mysterier. Fremtiden er en åben bog, og der bliver løbende taget nye skridt mod fremtidig rumforskning og ny viden.
-            "></div>
-            <div class="hover-text">Den Intergalaktiske Fremtid:
-                Hvad ligger der hinsides vores galakse? Med teknologi, der endnu er på tegnebrættet, kan menneskeheden en dag udforske andre galakser og få en dybere forståelse af kosmos' største mysterier. Fremtiden er en åben bog, og der bliver løbende taget nye skridt mod fremtidig rumforskning og ny viden.
-                </div>
-        </div>
-    </div>
-    
-        </div>
-        <div id="hover-text" class="hover-text"></div>
-        </div>
-    </div>
+<div class="circle-container"></div>
+<div id="hover-text" class="hover-text"></div>
+
+
     <script src="/scripts/rumseks.js"></script>
 </body>
+
 </html>

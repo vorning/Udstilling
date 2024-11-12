@@ -1,37 +1,47 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="da">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Planetarium</title>
-    <link rel="stylesheet" href="styles/rumfem.css">
-    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
-</head>
-<body>
+    <link rel="stylesheet" href="styles/rumfem.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <div id="navbar">
-        <div id="logo">
-            <h2>Planetarium</h2>
-        </div>
-        <button class="nav-button" onclick="focusPlanet('sun')">Solen</button>
-        <button class="nav-button" onclick="focusPlanet('mercury')">Merkur</button>
-        <button class="nav-button" onclick="focusPlanet('venus')">Venus</button>
-        <button class="nav-button" onclick="focusPlanet('earth')">Jorden</button>
-        <button class="nav-button" onclick="focusPlanet('mars')">Mars</button>
-        <button class="nav-button" onclick="focusPlanet('jupiter')">Jupiter</button>
-        <button class="nav-button" onclick="focusPlanet('saturn')">Saturn</button>
-        <div class="nav-gap"></div> <!-- Afstand til "Back to Start"-knappen -->
-        <button class="nav-button" id="reset-button" onclick="resetView()">Tilbage til start</button>
+      <div id="logo">
+        <h2>Planetarium</h2>
+      </div>
+      <button class="nav-button" onclick="focusPlanet('sun')">Solen</button>
+      <button class="nav-button" onclick="focusPlanet('mercury')">
+        Merkur
+      </button>
+      <button class="nav-button" onclick="focusPlanet('venus')">Venus</button>
+      <button class="nav-button" onclick="focusPlanet('earth')">Jorden</button>
+      <button class="nav-button" onclick="focusPlanet('mars')">Mars</button>
+      <button class="nav-button" onclick="focusPlanet('jupiter')">
+        Jupiter
+      </button>
+      <button class="nav-button" onclick="focusPlanet('saturn')">Saturn</button>
+      <div class="nav-gap"></div>
+      <!-- Afstand til "Back to Start"-knappen -->
+      <button class="nav-button" id="reset-button" onclick="resetView()">
+        Tilbage til start
+      </button>
     </div>
     <div id="container"></div>
     <div id="welcome-message">
-        <h1>Velkommen til Universet</h1>
-        <p>Vælg en stjerne eller en planet for at komme videre!</p>
+      <h1>Velkommen til Universet</h1>
+      <p>Vælg en stjerne eller en planet for at komme videre!</p>
     </div>
 
     <!-- Informationsboks -->
     <div id="info-box">
-        <h3 id="info-title"></h3>
-        <p id="info-content"></p>
+      <h3 id="info-title"></h3>
+      <p id="info-content"></p>
     </div>
 
     <!-- JavaScript filer -->
@@ -43,7 +53,8 @@
     <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/shaders/CopyShader.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/postprocessing/ShaderPass.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/shaders/LuminosityHighPassShader.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/tween.js/18.6.4/tween.umd.js"></script> <!-- TWEEN.js til animation -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tween.js/18.6.4/tween.umd.js"></script>
+    <!-- TWEEN.js til animation -->
     <script src="scripts/rumfem.js"></script>
-</body>
+  </body>
 </html>
