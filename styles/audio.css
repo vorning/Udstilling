@@ -1,0 +1,35 @@
+#audio-controls {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 5px 10px;
+    border-radius: 8px;
+}
+
+.control-button {
+    background: none;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+    color: #fff;
+}
+
+.control-button svg {
+    width: 32px;
+    height: 32px;
+    fill: #ffffff;
+}
+
+.control-button:hover {
+    transform: scale(1.1);
+}
+
+.control-button:active {
+    transform: scale(0.95);
+}
