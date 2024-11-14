@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Museum Udstilling - Index</title>
     <link rel="stylesheet" href="/styles/styles.css" />
+    <link rel="stylesheet" href="/styles/audio.css" />
+
     <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet" />
 </head>
 <body>
@@ -17,6 +19,25 @@
         </div>
     </div>
 
+    <div id="audio-controls">
+        <button id="play-sound" class="control-button" style="display:none;">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M5 3L19 12L5 21V3Z" fill="currentColor"/>
+            </svg>
+        </button>
+        <button id="pause-sound" class="control-button">
+
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M6 4H10V20H6V4ZM14 4H18V20H14V4Z" fill="currentColor"/>
+            </svg>
+        </button>
+    </div>
+
+    <audio id="ambient-soundtrack" src="assets/audio/space-travel.mp3" loop autoplay hidden></audio>
+    
+
     <script src="/scripts/rumet.js"></script>
+    <script src="/scripts/audio.js"></script>
+
 </body>
 </html>
